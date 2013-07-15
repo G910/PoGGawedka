@@ -11,7 +11,6 @@ $db_name	= "";		#nazwa bazy danych\n
 
 
 
-
 $mysqli = new mysqli($db_host, $db_login, $db_passwd, $db_name);
 
 
