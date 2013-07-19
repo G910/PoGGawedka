@@ -68,6 +68,7 @@ if(!$user_exists)
 	$M->addBBCode("\n\nNie wybrałeś nicku, nick przydzielony przez automat to: [b]".$username."[/b]. Możesz go zmienić korzystając z komendy !nick");
 	//commandStartStop($_GET['from'],true);
 }
+
 else if(banned($_GET['from'])) //baaaan!
 {
 	$M=createSystemMessage(HINT_MESSAGE,"Zostałeś/aś zbanowany/a na czacie. Nie możesz korzystać z żadnych jego funkcjonalności."," Odbanowanie możliwe jest jedynie przy kontakcie bezpośrednim z administratorem czatu (np. mailowo).");
